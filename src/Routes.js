@@ -23,7 +23,7 @@ function Routes() {
       <Route exact path="/colors">
         <ColorList colors={colors} />
       </Route>
-      <Route path="/colors/new">
+      <Route exact path="/colors/new">
         <AddColorForm addColor={addColor} />
       </Route>
       <Route path="/colors/:color">
